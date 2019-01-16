@@ -13,9 +13,10 @@ class App extends React.Component {
     return (
       <div>
         <h1>Hello World!</h1>
+        <p>you finally did it weenie</p>
       </div>
     )
   }
 }
 
-ReactDom.render(<App />, document.getElementById('add'));
+ReactDom.render(<App />, document.getElementById('app'));
