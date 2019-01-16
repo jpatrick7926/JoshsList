@@ -9,3 +9,6 @@ package.json
 package-lock.json
 webpack.config.js
 node_modules/
+
+# Dependency directories
+node_modules/
