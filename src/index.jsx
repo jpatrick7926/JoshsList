@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDom from 'react-dom';
+import FooterList from './components/FooterList.jsx';
 
 var sectionCss = {
   margin: '0 auto',
@@ -48,8 +49,8 @@ var footer = {
   height: '30px',
   width: '100%',
   position: 'fixed',
-  bottom: '0px',
-  textAlign: 'center'
+  bottom: '0px'
+  // textAlign: 'center'
 };
 
 class App extends React.Component {
@@ -62,7 +63,7 @@ class App extends React.Component {
 
   render () {
     return (
-      <div id="wrapper" style={{height: '100%', position: 'relative'}}>
+      <div id="wrapper" style={{height: '100%', position: 'relative', border:'1px solid black'}}>
         <section className='container' style={sectionCss}>
           <div>
             <nav id="topBanner" style={navCss}>
@@ -79,7 +80,7 @@ class App extends React.Component {
           </div>
         </section>
         <footer style={footer}>
-          Hey there weenie
+          <FooterList />
         </footer>
       </div>
     )
