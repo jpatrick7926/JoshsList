@@ -20,14 +20,14 @@ class FooterList extends React.Component {
     return(
       <div style={{clear:'both', display: 'table', margin: '0 auto'}}>
         <ul style={{}}>
-          <li style={listCss}>help</li>
-          <li style={listCss}>safety</li>
-          <li style={listCss}>privacy</li>
-          <li style={listCss}>feedback</li>
-          <li style={listCss}>cl jobs</li>
-          <li style={listCss}>terms</li>
-          <li style={listCss}>about</li>
-          <li style={listCss}>mobile</li>
+          <li style={listCss}><a href="#">help</a></li>
+          <li style={listCss}><a href="#">safety</a></li>
+          <li style={listCss}><a href="#">privacy</a></li>
+          <li style={listCss}><a href="#">feedback</a></li>
+          <li style={listCss}><a href="#">cl jobs</a></li>
+          <li style={listCss}><a href="#">terms</a></li>
+          <li style={listCss}><a href="#">about</a></li>
+          <li style={listCss}><a href="#">mobile</a></li>
         </ul>
       </div>
 
