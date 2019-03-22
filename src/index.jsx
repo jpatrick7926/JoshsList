@@ -6,7 +6,9 @@ var sectionCss = {
   margin: '0 auto',
   padding: '16px 0 1em 0',
   height: '100%',
-  width: '100%'
+  width: '100%',
+  float: 'left',
+  overflow: 'hidden'
 };
 
 var navCss = {
@@ -26,7 +28,7 @@ var leftColCss = {
   borderLeft: '1px solid #919191',
   borderRight: '1px solid #919191',
   backgroundColor: '#d2d5db',
-  minHeight: '820px',
+  minHeight: '90%',
   width: '20%',
   float: 'left',
   textAlign: 'center',
@@ -37,7 +39,7 @@ var rightColCss = {
   borderLeft: '1px solid #919191',
   borderRight: '1px solid #919191',
   backgroundColor: '#d2d5db',
-  minHeight: '820px',
+  minHeight: '90%',
   width: '20%',
   float: 'right',
   textAlign: 'center',
@@ -49,15 +51,14 @@ var footer = {
   borderTop : '1px solid #919191',
   height: '30px',
   width: '100%',
-  position: 'fixed',
-  bottom: '0px'
-  // textAlign: 'center'
+  clear: 'both'
 };
 
 var centerCss = {
   border: '1px dashed red',
   margin: '0',
-  width : '50%'
+  width : '50%',
+  clear: 'both'
   // float: 'left'
 };
 
