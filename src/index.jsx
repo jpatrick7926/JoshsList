@@ -7,7 +7,7 @@ var sectionCss = {
   padding: '16px 0 1em 0',
   height: '100%',
   width: '100%',
-  float: 'left',
+  // float: 'left',
   overflow: 'hidden'
 };
 
@@ -56,9 +56,14 @@ var footer = {
 
 var centerCss = {
   border: '1px dashed red',
-  margin: '0',
-  width : '50%',
-  clear: 'both'
+  marginLeft: '22%',
+  marginRight: '22%',
+  textAlign: 'center',
+  minHeight: '90%'
+  // marginLeft: '20%',
+  // marginRight: '20%',
+  // width : '50%',
+  // clear: 'both'
   // float: 'left'
 };
 
