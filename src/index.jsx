@@ -59,12 +59,19 @@ var centerCss = {
   marginLeft: '22%',
   marginRight: '22%',
   textAlign: 'center',
-  minHeight: '90%'
+  height: '90%'
   // marginLeft: '20%',
   // marginRight: '20%',
   // width : '50%',
   // clear: 'both'
   // float: 'left'
+};
+
+var communityCss = {
+border: '1px dashed blue',
+width: '30%',
+margin: '10px 10px 10px 10px',
+minHeight: '90%'
 };
 
 class App extends React.Component {
@@ -93,7 +100,12 @@ class App extends React.Component {
             </div>
 
             <div id="centerContainer" style={centerCss}>
-              YAY AREA
+              <div id="community" style={communityCss}>
+                <h4 class="sectionBanner" style={{border: '1px solid green', marginTop: '0px', marginBottom: '0px'}}>
+                  <a href="#">community</a>
+                </h4>
+
+              </div>
             </div>
 
         </section>
