@@ -67,12 +67,33 @@ var centerCss = {
   // float: 'left'
 };
 
-var communityCss = {
+var leftCenterCss = {
 border: '1px dashed blue',
 width: '30%',
 margin: '10px 10px 10px 10px',
 minHeight: '90%'
 };
+
+var communityCss = {
+  height: '160px',
+  backgroundColor: 'red'
+};
+
+var communityList1Css = {
+  backgroundColor: 'pink',
+  width: '20px',
+  float: 'left',
+  listStyle: 'none'
+};
+
+var communityList2Css = {
+  backgroundColor: 'green',
+  float: 'right'
+}
+
+var liStyle = {
+  borderBottom: "1px solid #919191"
+}
 
 class App extends React.Component {
   constructor(props){
@@ -100,11 +121,27 @@ class App extends React.Component {
             </div>
 
             <div id="centerContainer" style={centerCss}>
-              <div id="community" style={communityCss}>
-                <h4 class="sectionBanner" style={{border: '1px solid green', marginTop: '0px', marginBottom: '0px'}}>
-                  <a href="#">community</a>
-                </h4>
-
+              <div id="leftCenter" style={leftCenterCss}>
+                <div id="community" style={communityCss}>
+                  <h4 class="sectionBanner" style={{marginTop: '0px', marginBottom: '0px', backgroundColor: '#d2d5db', borderTop:'1px solid #919191',
+                  borderBottom:'1px solid #919191'}}>
+                    <a href="#">community</a>
+                  </h4>
+                  <ul id="communityList1" class="left" style={communityList1Css}>
+                    <li>hello</li>
+                    <li>hi</li>
+                    <li>yo</li>
+                    <li>aye</li>
+                    <li>hola</li>
+                  </ul>
+                  <ul id="communityList2" class="right" style={communityList2Css}>
+                  <li>man</li>
+                  <li>you</li>
+                  <li>be</li>
+                  <li>trippin</li>
+                  <li>boi</li>
+                  </ul>
+                </div>
               </div>
             </div>
 
