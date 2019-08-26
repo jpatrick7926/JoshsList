@@ -6,7 +6,12 @@ var ulStyle = {
   float: 'left',
   paddingLeft: '2px',
   fontFamily: 'Arial',
-  fontSize: '20 px'
+  fontSize: '80%',
+  marginTop: '7px'
+};
+
+var liStyle = {
+  borderBottom: "1px solid #919191"
 };
 
 class CommunityList2 extends React.Component{
@@ -20,8 +25,8 @@ class CommunityList2 extends React.Component{
   render (){
     return (
       <ul style={ulStyle}>
-        <li style={{fontSize: '6 px'}}><a style={{textDecoration: 'none'}} href="#">lost+found</a></li>
-        <li><a style={{textDecoration: 'none', fontSize: '10 px'}} href="#">missed<br/>connections</a></li>
+        <li><a style={{textDecoration: 'none'}} href="#">lost+found</a></li>
+        <li><a style={{textDecoration: 'none'}} href="#">missed<br/>connections</a></li>
         <li><a style={{textDecoration: 'none'}} href="#">musicians</a></li>
         <li><a style={{textDecoration: 'none'}} href="#">pets</a></li>
         <li><a style={{textDecoration: 'none'}} href="#">politics</a></li>

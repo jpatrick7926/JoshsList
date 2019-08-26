@@ -77,8 +77,7 @@ minHeight: '90%'
 };
 
 var communityCss = {
-  height: '160px',
-  backgroundColor: 'red'
+  height: '160px'
 };
 
 var communityList1Css = {
