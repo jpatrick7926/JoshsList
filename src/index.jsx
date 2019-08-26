@@ -1,6 +1,8 @@
 import React from 'react';
 import ReactDom from 'react-dom';
 import FooterList from './components/FooterList.jsx';
+import CommunityList1 from './components/CommunityList1.jsx';
+import CommunityList2 from './components/CommunityList2.jsx';
 
 var sectionCss = {
   margin: '0 auto',
@@ -123,24 +125,12 @@ class App extends React.Component {
             <div id="centerContainer" style={centerCss}>
               <div id="leftCenter" style={leftCenterCss}>
                 <div id="community" style={communityCss}>
-                  <h4 class="sectionBanner" style={{marginTop: '0px', marginBottom: '0px', backgroundColor: '#d2d5db', borderTop:'1px solid #919191',
+                  <h4 className="sectionBanner" style={{marginTop: '0px', marginBottom: '0px', backgroundColor: '#d2d5db', borderTop:'1px solid #919191',
                   borderBottom:'1px solid #919191'}}>
                     <a href="#">community</a>
                   </h4>
-                  <ul id="communityList1" class="left" style={communityList1Css}>
-                    <li>hello</li>
-                    <li>hi</li>
-                    <li>yo</li>
-                    <li>aye</li>
-                    <li>hola</li>
-                  </ul>
-                  <ul id="communityList2" class="right" style={communityList2Css}>
-                  <li>man</li>
-                  <li>you</li>
-                  <li>be</li>
-                  <li>trippin</li>
-                  <li>boi</li>
-                  </ul>
+                  <CommunityList1 />
+                  <CommunityList2 />
                 </div>
               </div>
             </div>
