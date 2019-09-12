@@ -21,14 +21,14 @@ class CommunityList1 extends React.Component{
   render() {
     return (
       <ul style={ulStyle}>
-        <li><a style={{textDecoration: 'none'}} href="#">avtivities</a></li>
-        <li><a style={{textDecoration: 'none'}} href="#">artists</a></li>
-        <li><a style={{textDecoration: 'none'}} href="#">childcare</a></li>
-        <li><a style={{textDecoration: 'none'}} href="#">classes</a></li>
-        <li><a style={{textDecoration: 'none'}} href="#">events</a></li>
-        <li><a style={{textDecoration: 'none'}} href="#">general</a></li>
-        <li><a style={{textDecoration: 'none'}} href="#">groups</a></li>
-        <li><a style={{textDecoration: 'none'}} href="#">local news</a></li>
+        <li><a style={{textDecoration: 'none', borderBottom: ".5px solid #919191", float: 'left'}} href="#">avtivities</a></li>
+        <li><a style={{textDecoration: 'none', borderBottom: ".5px solid #919191", float: 'left'}} href="#">artists</a></li>
+        <li><a style={{textDecoration: 'none', borderBottom: ".5px solid #919191", float: 'left'}} href="#">childcare</a></li>
+        <li><a style={{textDecoration: 'none', borderBottom: ".5px solid #919191", float: 'left'}} href="#">classes</a></li>
+        <li><a style={{textDecoration: 'none', borderBottom: ".5px solid #919191", float: 'left'}} href="#">events</a></li>
+        <li><a style={{textDecoration: 'none', borderBottom: ".5px solid #919191", float: 'left'}} href="#">general</a></li>
+        <li><a style={{textDecoration: 'none', borderBottom: ".5px solid #919191", float: 'left'}} href="#">groups</a></li>
+        <li><a style={{textDecoration: 'none', borderBottom: ".5px solid #919191", float: 'left'}} href="#">local news</a></li>
       </ul>
     )
   }
