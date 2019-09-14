@@ -3,6 +3,7 @@ import ReactDom from 'react-dom';
 import FooterList from './components/FooterList.jsx';
 import CommunityList1 from './components/CommunityList1.jsx';
 import CommunityList2 from './components/CommunityList2.jsx';
+import ServiceList1 from './components/ServicesList1.jsx';
 
 var sectionCss = {
   margin: '0 auto',
@@ -130,6 +131,13 @@ class App extends React.Component {
                   </h4>
                   <CommunityList1 />
                   <CommunityList2 />
+                </div>
+                <div id="services" style={{height: '160px', backgroundColor: 'red'}}>
+                  <h4 className="sectionBanner" style={{marginTop: '0px', marginBottom: '0px', backgroundColor: '#d2d5db', borderTop:'1px solid #919191',
+                  borderBottom:'1px solid #919191', textAlign: 'center'}}>
+                    <a href="#">services</a>
+                  </h4>
+                  <ServiceList1 />
                 </div>
               </div>
             </div>

@@ -8,7 +8,7 @@ var ulStyle = {
   fontFamily: 'Arial',
   fontSize: '80%',
   marginTop: '7px',
-  marginRight: '7px'
+  marginLeft: '20px'
 };
 
 var liStyle = {
