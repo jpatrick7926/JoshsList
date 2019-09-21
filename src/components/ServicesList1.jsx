@@ -8,10 +8,9 @@ var ulStyle = {
   fontFamily: 'Arial',
   fontSize: '80%',
   marginTop: '7px',
-  marginLeft: '20px'
 };
 
-class ServiceList1 extends React.Component{
+class ServicesList1 extends React.Component{
   constructor(props){
     super(props);
     this.state={
@@ -37,4 +36,4 @@ class ServiceList1 extends React.Component{
   }
 }
 
-export default ServiceList1;
+export default ServicesList1;

@@ -3,7 +3,11 @@ import ReactDom from 'react-dom';
 import FooterList from './components/FooterList.jsx';
 import CommunityList1 from './components/CommunityList1.jsx';
 import CommunityList2 from './components/CommunityList2.jsx';
-import ServiceList1 from './components/ServicesList1.jsx';
+import ServicesList1 from './components/ServicesList1.jsx';
+import ServicesList2 from './components/ServicesList2.jsx';
+import DiscussionList1 from './components/DiscussionList1.jsx';
+import DiscussionList2 from './components/DiscussionList2.jsx';
+import DiscussionList3 from './components/DiscussionList3.jsx';
 
 var sectionCss = {
   margin: '0 auto',
@@ -74,8 +78,17 @@ var leftCenterCss = {
 border: '1px dashed blue',
 width: '30%',
 margin: '10px 10px 10px 10px',
-minHeight: '90%'
+minHeight: '90%',
+float: 'left'
 };
+
+var rightCenterCss = {
+  border: '1px dashed purple',
+  width: '20%',
+  margin: '10px 10px 10px 10px',
+  minHeight: '90%',
+  float: 'right'
+}
 
 var communityCss = {
   height: '160px'
@@ -96,6 +109,9 @@ var communityList2Css = {
 var liStyle = {
   borderBottom: "1px solid #919191"
 }
+
+var sectionBanCss = {marginTop: '0px', marginBottom: '0px', backgroundColor: '#d2d5db', borderTop:'1px solid #919191',
+borderBottom:'1px solid #919191', textAlign: 'center'}
 
 class App extends React.Component {
   constructor(props){
@@ -132,13 +148,25 @@ class App extends React.Component {
                   <CommunityList1 />
                   <CommunityList2 />
                 </div>
-                <div id="services" style={{height: '160px', backgroundColor: 'red'}}>
-                  <h4 className="sectionBanner" style={{marginTop: '0px', marginBottom: '0px', backgroundColor: '#d2d5db', borderTop:'1px solid #919191',
-                  borderBottom:'1px solid #919191', textAlign: 'center'}}>
+                <div id="services" style={{height: '160px'}}>
+                  <h4 className="sectionBanner" style={sectionBanCss}>
                     <a href="#">services</a>
                   </h4>
-                  <ServiceList1 />
+                  <ServicesList1 />
+                  <ServicesList2 />
                 </div>
+                <div id="discussions" style={{height: '160px'}}>
+                  <h4 className="sectionBanner" style={{marginTop: '0px', marginBottom: '0px', backgroundColor: '#d2d5db', borderTop: '1px solid #919191',
+                  borderBottom: '1px solid #919191', textAlign: 'center'}}>
+                    <a href="#">discussion forums</a>
+                  </h4>
+                  <DiscussionList1 />
+                  <DiscussionList2 />
+                  <DiscussionList3 />
+                </div>
+              </div>
+              <div id="rightCenter" style={rightCenterCss}>
+                <h4 className="sectionBanner" style={{}}> </h4>
               </div>
             </div>
 
