@@ -94,16 +94,8 @@ var communityCss = {
   height: '160px'
 };
 
-var communityList1Css = {
-  backgroundColor: 'pink',
-  width: '20px',
-  float: 'left',
-  listStyle: 'none'
-};
+var jobsCss = {
 
-var communityList2Css = {
-  backgroundColor: 'green',
-  float: 'right'
 }
 
 var liStyle = {
@@ -166,7 +158,11 @@ class App extends React.Component {
                 </div>
               </div>
               <div id="rightCenter" style={rightCenterCss}>
-                <h4 className="sectionBanner" style={{}}> </h4>
+                <div id="jobs" style={jobsCss}>
+                  <h4 className="sectionBanner" style={sectionBanCss}>
+                    <a href="#">jobs</a>
+                  </h4>
+                </div>
               </div>
             </div>
 
