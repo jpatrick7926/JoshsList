@@ -8,6 +8,12 @@ import ServicesList2 from './components/ServicesList2.jsx';
 import DiscussionList1 from './components/DiscussionList1.jsx';
 import DiscussionList2 from './components/DiscussionList2.jsx';
 import DiscussionList3 from './components/DiscussionList3.jsx';
+import JobsList from './components/JobsList.jsx';
+import GigsList1 from './components/GigsList1.jsx';
+import GigsList2 from './components/GigsList2.jsx';
+import HousingList from './components/HousingList.jsx';
+import ForSaleList1 from './components/ForSaleList1.jsx';
+import ForSaleList2 from './components/ForSaleList2.jsx';
 
 var sectionCss = {
   margin: '0 auto',
@@ -84,19 +90,25 @@ float: 'left'
 
 var rightCenterCss = {
   border: '1px dashed purple',
-  width: '20%',
+  width: '18%',
   margin: '10px 10px 10px 10px',
   minHeight: '90%',
   float: 'right'
 }
 
+var middleCenterCss = {
+  border: '1px dashed green',
+  width: '37%',
+  marginLeft: '37%',
+  marginRight: '18%',
+  marginTop: '10px',
+  marginBottom: '10px',
+  minHeight: '90%'
+}
+
 var communityCss = {
   height: '160px'
 };
-
-var jobsCss = {
-
-}
 
 var liStyle = {
   borderBottom: "1px solid #919191"
@@ -158,10 +170,33 @@ class App extends React.Component {
                 </div>
               </div>
               <div id="rightCenter" style={rightCenterCss}>
-                <div id="jobs" style={jobsCss}>
+                <div id="jobs" style={{height: '400px', backgroundColor: 'pink'}}>
                   <h4 className="sectionBanner" style={sectionBanCss}>
                     <a href="#">jobs</a>
                   </h4>
+                  <JobsList />
+                </div>
+                <div id="gigs" style={{height: '100px'}}>
+                  <h4 className="sectionBanner" style={sectionBanCss}>
+                    <a href="#">gigs</a>
+                  </h4>
+                  <GigsList1 />
+                  <GigsList2 />
+                </div>
+              </div>
+              <div id="middleCenter" style={middleCenterCss}>
+                <div id="housing" style={{height: '175px'}}>
+                  <h4 className="sectionBanner" style={sectionBanCss}>
+                    <a href="#">housing</a>
+                  </h4>
+                  <HousingList />
+                </div>
+                <div id="forSale" style={{height: '320px'}}>
+                  <h4 className="sectionBanner" style={sectionBanCss}>
+                    <a href="#">for sale</a>
+                  </h4>
+                  <ForSaleList1 />
+                  <ForSaleList2 />
                 </div>
               </div>
             </div>
