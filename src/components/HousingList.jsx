@@ -21,16 +21,16 @@ class HousingList extends React.Component{
   render () {
     return (
       <ul style={ulStyle}>
-        <li><a style={{textDecoration: 'none', borderBottom: ".5px solid #919191", float: 'left', fontSize: '11px'}} href="#">apts / housing</a></li>
-        <li><a style={{textDecoration: 'none', borderBottom: ".5px solid #919191", float: 'left', fontSize: '11px'}} href="#">housing swap</a></li>
-        <li><a style={{textDecoration: 'none', borderBottom: ".5px solid #919191", float: 'left', fontSize: '11px'}} href="#">housing wanted</a></li>
-        <li><a style={{textDecoration: 'none', borderBottom: ".5px solid #919191", float: 'left', fontSize: '11px'}} href="#">office / commercial</a></li>
-        <li><a style={{textDecoration: 'none', borderBottom: ".5px solid #919191", float: 'left', fontSize: '11px'}} href="#">parking / storage</a></li>
-        <li><a style={{textDecoration: 'none', borderBottom: ".5px solid #919191", float: 'left', fontSize: '11px'}} href="#">real estate for sale</a></li>
-        <li><a style={{textDecoration: 'none', borderBottom: ".5px solid #919191", float: 'left', fontSize: '11px'}} href="#">rooms / shared</a></li>
-        <li><a style={{textDecoration: 'none', borderBottom: ".5px solid #919191", float: 'left', fontSize: '11px'}} href="#">rooms wanted</a></li>
-        <li><a style={{textDecoration: 'none', borderBottom: ".5px solid #919191", float: 'left', fontSize: '11px'}} href="#">sublets / temporary</a></li>
-        <li><a style={{textDecoration: 'none', borderBottom: ".5px solid #919191", float: 'left', fontSize: '11px'}} href="#">vacation rentals</a></li>
+        <li><a style={{textDecoration: 'none', borderBottom: ".5px solid #919191", float: 'left', fontSize: '12px'}} href="#">apts / housing</a></li>
+        <li><a style={{textDecoration: 'none', borderBottom: ".5px solid #919191", float: 'left', fontSize: '12px'}} href="#">housing swap</a></li>
+        <li><a style={{textDecoration: 'none', borderBottom: ".5px solid #919191", float: 'left', fontSize: '12px'}} href="#">housing wanted</a></li>
+        <li><a style={{textDecoration: 'none', borderBottom: ".5px solid #919191", float: 'left', fontSize: '12px'}} href="#">office / commercial</a></li>
+        <li><a style={{textDecoration: 'none', borderBottom: ".5px solid #919191", float: 'left', fontSize: '12px'}} href="#">parking / storage</a></li>
+        <li><a style={{textDecoration: 'none', borderBottom: ".5px solid #919191", float: 'left', fontSize: '12px'}} href="#">real estate for sale</a></li>
+        <li><a style={{textDecoration: 'none', borderBottom: ".5px solid #919191", float: 'left', fontSize: '12px'}} href="#">rooms / shared</a></li>
+        <li><a style={{textDecoration: 'none', borderBottom: ".5px solid #919191", float: 'left', fontSize: '12px'}} href="#">rooms wanted</a></li>
+        <li><a style={{textDecoration: 'none', borderBottom: ".5px solid #919191", float: 'left', fontSize: '12px'}} href="#">sublets / temporary</a></li>
+        <li><a style={{textDecoration: 'none', borderBottom: ".5px solid #919191", float: 'left', fontSize: '12px'}} href="#">vacation rentals</a></li>
       </ul>
     )
   }

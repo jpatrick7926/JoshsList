@@ -42,10 +42,11 @@ var leftColCss = {
   borderRight: '1px solid #919191',
   backgroundColor: '#d2d5db',
   minHeight: '90%',
-  width: '20%',
+  width: '15%',
   float: 'left',
   textAlign: 'center',
-  position: 'relative'
+  position: 'relative',
+  marginLeft: '80px'
 };
 
 var rightColCss = {
@@ -53,10 +54,11 @@ var rightColCss = {
   borderRight: '1px solid #919191',
   backgroundColor: '#d2d5db',
   minHeight: '90%',
-  width: '20%',
+  width: '10%',
   float: 'right',
   textAlign: 'center',
-  position: 'relative'
+  position: 'relative',
+  marginRight: '140px'
 };
 
 var footer = {
@@ -81,7 +83,6 @@ var centerCss = {
 };
 
 var leftCenterCss = {
-border: '1px dashed blue',
 width: '30%',
 margin: '10px 10px 10px 10px',
 minHeight: '90%',
@@ -89,7 +90,6 @@ float: 'left'
 };
 
 var rightCenterCss = {
-  border: '1px dashed purple',
   width: '18%',
   margin: '10px 10px 10px 10px',
   minHeight: '90%',
@@ -97,7 +97,6 @@ var rightCenterCss = {
 }
 
 var middleCenterCss = {
-  border: '1px dashed green',
   width: '37%',
   marginLeft: '37%',
   marginRight: '18%',
@@ -115,7 +114,7 @@ var liStyle = {
 }
 
 var sectionBanCss = {marginTop: '0px', marginBottom: '0px', backgroundColor: '#d2d5db', borderTop:'1px solid #919191',
-borderBottom:'1px solid #919191', textAlign: 'center'}
+borderBottom:'1px solid #919191', textAlign: 'center', fontFamily: 'Arial'}
 
 class App extends React.Component {
   constructor(props){
@@ -135,7 +134,32 @@ class App extends React.Component {
             </nav>
 
             <div id="leftColumn" style={leftColCss}>
-              <p>hey there weenie</p>
+              <h2 style={{marginTop: '5px'}}><a href="#">joshslist</a></h2>
+              <p style={{marginBottom: '5px'}}><a style={{textDecoration: 'none', fontFamily: 'arial'}} href="#">create a posting</a></p>
+              <p style={{marginTop: '0'}}><a style={{textDecoration: 'none', fontFamily: 'arial'}} href="#">my account</a></p>
+              <input type="search" id="siteSearch" placeholder="search joshslist"/>
+              <p style={{marginTop: '10px', marginBottom: '5px'}}><a style={{textDecoration: 'none', fontFamily: 'arial', fontSize: '12px'}} href="#">help, faq, abuse, legal</a></p>
+              <p style={{marginTop: '0', marginBottom: '5px'}}><a style={{textDecoration: 'none', fontFamily: 'arial', fontSize: '12px'}} href="#">avoid scams & fraud</a></p>
+              <p style={{marginTop: '0', marginBottom: '5px'}}><a style={{textDecoration: 'none', fontFamily: 'arial', fontSize: '12px'}} href="#">personal safety tips</a></p>
+              <p style={{marginTop: '0', marginBottom: '5px'}}><a style={{textDecoration: 'none', fontFamily: 'arial', fontSize: '12px'}} href="#">terms of use</a></p>
+              <p style={{marginTop: '0', marginBottom: '5px'}}><a style={{textDecoration: 'none', fontFamily: 'arial', fontSize: '12px'}} href="#">privacy policy</a></p>
+              <p style={{marginTop: '0', marginBottom: '20px'}}><a style={{textDecoration: 'none', fontFamily: 'arial', fontSize: '12px'}} href="#">system status</a></p>
+              <p style={{marginTop: '0', marginBottom: '5px'}}><a style={{textDecoration: 'none', fontFamily: 'arial', fontSize: '12px'}} href="#">about craigslist</a></p>
+              <p style={{marginTop: '0', marginBottom: '5px'}}><a style={{textDecoration: 'none', fontFamily: 'arial', fontSize: '12px'}} href="#">craigslist is hiring in sf</a></p>
+              <p style={{marginTop: '0', marginBottom: '5px'}}><a style={{textDecoration: 'none', fontFamily: 'arial', fontSize: '12px'}} href="#">craigslist open source</a></p>
+              <p style={{marginTop: '0', marginBottom: '5px'}}><a style={{textDecoration: 'none', fontFamily: 'arial', fontSize: '12px'}} href="#">craigslist blog</a></p>
+              <p style={{marginTop: '0', marginBottom: '5px'}}><a style={{textDecoration: 'none', fontFamily: 'arial', fontSize: '12px'}} href="#">best-of-craigslist</a></p>
+              <p style={{marginTop: '0', marginBottom: '5px'}}><a style={{textDecoration: 'none', fontFamily: 'arial', fontSize: '12px'}} href="#">craigslist TV</a></p>
+              <p style={{marginTop: '0', marginBottom: '5px'}}><a style={{textDecoration: 'none', fontFamily: 'arial', fontSize: '12px'}} href="#">"craigslist joe"</a></p>
+              <p style={{marginTop: '0', marginBottom: '5px'}}><a style={{textDecoration: 'none', fontFamily: 'arial', fontSize: '12px'}} href="#">craig connects</a></p>
+              <p style={{marginTop: '0', marginBottom: '15px'}}><a style={{textDecoration: 'none', fontFamily: 'arial', fontSize: '12px'}} href="#">progressive directory</a></p>
+              <ul style={{listStyle: 'none', padding: '0'}}>
+                <li style={{display: 'inline', marginRight: '20px'}}><a style= {{textDecoration: 'none', fontFamily: 'arial', fontSize: '12px'}} href="#">weather</a></li>
+                <li style={{display: 'inline', marginRight: '20px'}}><a style= {{textDecoration: 'none', fontFamily: 'arial', fontSize: '12px'}} href="#">quake</a></li>
+                <li style={{display: 'inline'}}><a style= {{textDecoration: 'none', fontFamily: 'arial', fontSize: '12px'}} href="#">tide</a></li>
+              </ul>
+
+
             </div>
 
             <div id="rightColumn" style={rightColCss}>
@@ -146,23 +170,23 @@ class App extends React.Component {
               <div id="leftCenter" style={leftCenterCss}>
                 <div id="community" style={communityCss}>
                   <h4 className="sectionBanner" style={{marginTop: '0px', marginBottom: '0px', backgroundColor: '#d2d5db', borderTop:'1px solid #919191',
-                  borderBottom:'1px solid #919191'}}>
-                    <a href="#">community</a>
+                  borderBottom:'1px solid #919191', fontFamily: 'Arial'}}>
+                    <a href="#" style={{textDecoration: 'none'}}>community</a>
                   </h4>
                   <CommunityList1 />
                   <CommunityList2 />
                 </div>
                 <div id="services" style={{height: '160px'}}>
                   <h4 className="sectionBanner" style={sectionBanCss}>
-                    <a href="#">services</a>
+                    <a href="#" style={{textDecoration: 'none'}}>services</a>
                   </h4>
                   <ServicesList1 />
                   <ServicesList2 />
                 </div>
                 <div id="discussions" style={{height: '160px'}}>
                   <h4 className="sectionBanner" style={{marginTop: '0px', marginBottom: '0px', backgroundColor: '#d2d5db', borderTop: '1px solid #919191',
-                  borderBottom: '1px solid #919191', textAlign: 'center'}}>
-                    <a href="#">discussion forums</a>
+                  borderBottom: '1px solid #919191', fontFamily: 'Arial'}}>
+                    <a href="#" style={{textDecoration: 'none'}}>discussion forums</a>
                   </h4>
                   <DiscussionList1 />
                   <DiscussionList2 />
@@ -170,15 +194,15 @@ class App extends React.Component {
                 </div>
               </div>
               <div id="rightCenter" style={rightCenterCss}>
-                <div id="jobs" style={{height: '400px', backgroundColor: 'pink'}}>
+                <div id="jobs" style={{height: '400px'}}>
                   <h4 className="sectionBanner" style={sectionBanCss}>
-                    <a href="#">jobs</a>
+                    <a href="#" style={{textDecoration: 'none'}}>jobs</a>
                   </h4>
                   <JobsList />
                 </div>
                 <div id="gigs" style={{height: '100px'}}>
                   <h4 className="sectionBanner" style={sectionBanCss}>
-                    <a href="#">gigs</a>
+                    <a href="#" style={{textDecoration: 'none'}}>gigs</a>
                   </h4>
                   <GigsList1 />
                   <GigsList2 />
@@ -187,13 +211,13 @@ class App extends React.Component {
               <div id="middleCenter" style={middleCenterCss}>
                 <div id="housing" style={{height: '175px'}}>
                   <h4 className="sectionBanner" style={sectionBanCss}>
-                    <a href="#">housing</a>
+                    <a href="#" style={{textDecoration: 'none'}}>housing</a>
                   </h4>
                   <HousingList />
                 </div>
                 <div id="forSale" style={{height: '320px'}}>
                   <h4 className="sectionBanner" style={sectionBanCss}>
-                    <a href="#">for sale</a>
+                    <a href="#" style={{textDecoration: 'none'}}>for sale</a>
                   </h4>
                   <ForSaleList1 />
                   <ForSaleList2 />
