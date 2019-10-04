@@ -163,7 +163,61 @@ class App extends React.Component {
             </div>
 
             <div id="rightColumn" style={rightColCss}>
-              <p>hey there weenie</p>
+              <select style={{marginTop: '10px', marginBottom: '10px'}}>
+                <option>english</option>
+                <option>deutsch</option>
+                <option>espanol</option>
+                <option>francais</option>
+                <option>italiano</option>
+                <option>portugues</option>
+                <option>suomi</option>
+                <option>svenska</option>
+                <option>tieng viet</option>
+                <option>turkce</option>
+                <option>pyccknn</option>
+              </select>
+
+              <p style={{marginTop: '0px', marginBottom: '5px', backgroundColor: '#FFFFFF', borderTop:'1px solid #919191',
+              borderBottom:'1px solid #919191', textAlign: 'center', fontFamily: 'Arial', fontSize: '12px'}}><strong>nearby cl</strong></p>
+              <p style={{marginTop: '0', marginBottom: '2px', lineHeight: '0.7'}}><a style={{textDecoration: 'none', fontFamily: 'arial', fontSize: '10px'}} href="#">bakersfield</a></p>
+              <p style={{marginTop: '0', marginBottom: '2px', lineHeight: '0.7'}}><a style={{textDecoration: 'none', fontFamily: 'arial', fontSize: '10px'}} href="#">chico</a></p>
+              <p style={{marginTop: '0', marginBottom: '2px', lineHeight: '0.7'}}><a style={{textDecoration: 'none', fontFamily: 'arial', fontSize: '10px'}} href="#">fresno</a></p>
+              <p style={{marginTop: '0', marginBottom: '2px', lineHeight: '0.7'}}><a style={{textDecoration: 'none', fontFamily: 'arial', fontSize: '10px'}} href="#">gold country</a></p>
+              <p style={{marginTop: '0', marginBottom: '2px', lineHeight: '0.7'}}><a style={{textDecoration: 'none', fontFamily: 'arial', fontSize: '10px'}} href="#">hanford</a></p>
+              <p style={{marginTop: '0', marginBottom: '2px', lineHeight: '0.7'}}><a style={{textDecoration: 'none', fontFamily: 'arial', fontSize: '10px'}} href="#">humboldt</a></p>
+              <p style={{marginTop: '0', marginBottom: '2px', lineHeight: '0.7'}}><a style={{textDecoration: 'none', fontFamily: 'arial', fontSize: '10px'}} href="#">inland empire</a></p>
+              <p style={{marginTop: '0', marginBottom: '2px', lineHeight: '0.7'}}><a style={{textDecoration: 'none', fontFamily: 'arial', fontSize: '10px'}} href="#">klamath falls</a></p>
+              <p style={{marginTop: '0', marginBottom: '2px', lineHeight: '0.7'}}><a style={{textDecoration: 'none', fontFamily: 'arial', fontSize: '10px'}} href="#">las vegas</a></p>
+              <p style={{marginTop: '0', marginBottom: '2px', lineHeight: '0.7'}}><a style={{textDecoration: 'none', fontFamily: 'arial', fontSize: '10px'}} href="#">los angeles</a></p>
+              <p style={{marginTop: '0', marginBottom: '2px', lineHeight: '0.7'}}><a style={{textDecoration: 'none', fontFamily: 'arial', fontSize: '10px'}} href="#">medford</a></p>
+              <p style={{marginTop: '0', marginBottom: '2px', lineHeight: '0.7'}}><a style={{textDecoration: 'none', fontFamily: 'arial', fontSize: '10px'}} href="#">mendocino co</a></p>
+              <p style={{marginTop: '0', marginBottom: '2px', lineHeight: '0.7'}}><a style={{textDecoration: 'none', fontFamily: 'arial', fontSize: '10px'}} href="#">merced</a></p>
+              <p style={{marginTop: '0', marginBottom: '2px', lineHeight: '0.7'}}><a style={{textDecoration: 'none', fontFamily: 'arial', fontSize: '10px'}} href="#">modesto</a></p>
+              <p style={{marginTop: '0', marginBottom: '2px', lineHeight: '0.7'}}><a style={{textDecoration: 'none', fontFamily: 'arial', fontSize: '10px'}} href="#">monterey</a></p>
+              <p style={{marginTop: '0', marginBottom: '2px', lineHeight: '0.7'}}><a style={{textDecoration: 'none', fontFamily: 'arial', fontSize: '10px'}} href="#">orange co</a></p>
+              <p style={{marginTop: '0', marginBottom: '2px', lineHeight: '0.7'}}><a style={{textDecoration: 'none', fontFamily: 'arial', fontSize: '10px'}} href="#">palm springs</a></p>
+              <p style={{marginTop: '0', marginBottom: '2px', lineHeight: '0.7'}}><a style={{textDecoration: 'none', fontFamily: 'arial', fontSize: '10px'}} href="#">redding</a></p>
+              <p style={{marginTop: '0', marginBottom: '2px', lineHeight: '0.7'}}><a style={{textDecoration: 'none', fontFamily: 'arial', fontSize: '10px'}} href="#">reno</a></p>
+              <p style={{marginTop: '0', marginBottom: '2px', lineHeight: '0.7'}}><a style={{textDecoration: 'none', fontFamily: 'arial', fontSize: '10px'}} href="#">roseburg</a></p>
+              <p style={{marginTop: '0', marginBottom: '2px', lineHeight: '0.7'}}><a style={{textDecoration: 'none', fontFamily: 'arial', fontSize: '10px'}} href="#">sacramento</a></p>
+              <p style={{marginTop: '0', marginBottom: '2px', lineHeight: '0.7'}}><a style={{textDecoration: 'none', fontFamily: 'arial', fontSize: '10px'}} href="#">san luis obispo</a></p>
+              <p style={{marginTop: '0', marginBottom: '2px', lineHeight: '0.7'}}><a style={{textDecoration: 'none', fontFamily: 'arial', fontSize: '10px'}} href="#">santa barbara</a></p>
+              <p style={{marginTop: '0', marginBottom: '2px', lineHeight: '0.7'}}><a style={{textDecoration: 'none', fontFamily: 'arial', fontSize: '10px'}} href="#">santa maria</a></p>
+              <p style={{marginTop: '0', marginBottom: '2px', lineHeight: '0.7'}}><a style={{textDecoration: 'none', fontFamily: 'arial', fontSize: '10px'}} href="#">siskiyou co</a></p>
+              <p style={{marginTop: '0', marginBottom: '2px', lineHeight: '0.7'}}><a style={{textDecoration: 'none', fontFamily: 'arial', fontSize: '10px'}} href="#">stockton</a></p>
+              <p style={{marginTop: '0', marginBottom: '2px', lineHeight: '0.7'}}><a style={{textDecoration: 'none', fontFamily: 'arial', fontSize: '10px'}} href="#">susanville</a></p>
+              <p style={{marginTop: '0', marginBottom: '2px', lineHeight: '0.7'}}><a style={{textDecoration: 'none', fontFamily: 'arial', fontSize: '10px'}} href="#">ventura</a></p>
+              <p style={{marginTop: '0', marginBottom: '2px', lineHeight: '0.7'}}><a style={{textDecoration: 'none', fontFamily: 'arial', fontSize: '10px'}} href="#">visalia-tulare</a></p>
+              <p style={{marginTop: '0', marginBottom: '2px', lineHeight: '0.7'}}><a style={{textDecoration: 'none', fontFamily: 'arial', fontSize: '10px'}} href="#">yuba-sutter</a></p>
+
+              <p style={{marginTop: '10px', marginBottom: '0', backgroundColor: '#d2d5db', borderTop:'1px solid #919191',
+              borderBottom:'1px solid #919191', textAlign: 'center', fontFamily: 'Arial', fontSize: '12px'}}>us cities</p>
+              <p style={{marginTop: '0px', marginBottom: '0', backgroundColor: '#d2d5db', borderTop:'1px solid #919191',
+              borderBottom:'1px solid #919191', textAlign: 'center', fontFamily: 'Arial', fontSize: '12px'}}>us states</p>
+              <p style={{marginTop: '0px', marginBottom: '0', backgroundColor: '#d2d5db', borderTop:'1px solid #919191',
+              borderBottom:'1px solid #919191', textAlign: 'center', fontFamily: 'Arial', fontSize: '12px'}}>canada</p>
+              <p style={{marginTop: '0px', marginBottom: '0', backgroundColor: '#d2d5db', borderTop:'1px solid #919191',
+              borderBottom:'1px solid #919191', textAlign: 'center', fontFamily: 'Arial', fontSize: '12px'}}>cl worldwide</p>
             </div>
 
             <div id="centerContainer" style={centerCss}>
